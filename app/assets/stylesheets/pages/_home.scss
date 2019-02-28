@@ -1,19 +1,29 @@
 // Specific CSS for your home-page
 h1 {
   font-size: 60px;
-  color: blue;
-  font-weight: lighter;
+  color: black;
+  font-weight: bold;
 }
 
 .card_cocktail {
   padding: 20px;
   justify-content: space-around;
   margin-left: 20px;
+  margin-bottom: 10px;
   width: 250px;
   height: 125px;
-  background-image: #F3F3F3;
+  background-color: #F3F3F3;
   box-shadow: 2px 2px 2px gray;
 
+
+}
+
+.card_cocktail a {
+  text-decoration: none;
+  color: #7EA1B6;
+  &:hover {
+    color: black;
+  }
 }
 
 .cocktail {
@@ -22,7 +32,20 @@ h1 {
 }
 
 .container {
-  background-color: black;
-  background-size: cover;
+  background-color: #7EA1B6;
 }
 
+.top_right {
+  top: 30px;
+  right: 250px;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid transparent;
+
+}
+
+.top_right a {
+  color: #7EA1B6;
+  text-decoration: none,
+}
