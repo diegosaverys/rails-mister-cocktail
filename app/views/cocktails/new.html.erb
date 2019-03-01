@@ -1,10 +1,17 @@
-<%= form_for(@cocktail) do |f| %>
-  <%= f.label :name %>
-  <%= f.text_field :name %>
+<div class="logo"><%= image_tag "cocktail.png" %></div>
 
-  <%= f.submit %>
-<% end %>
+  <div class="form">
+    <%= form_for(@cocktail) do |f| %>
+      <%= f.label :name %>
+      <%= f.text_field :name %>
 
-<div class="btn btn-primary top-right" >
-  <%= link_to "Back to list", cocktails_path%>
-</div>
+      <%= f.submit %>
+    <% end %>
+  </div>
+
+  <div class="btn btn-primary top_right" >
+    <%= link_to "Back to list", cocktails_path%>
+  </div>
+
+
+

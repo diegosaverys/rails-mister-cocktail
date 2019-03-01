@@ -5,19 +5,22 @@
     <h1>All cocktails</h1>
   </div>
 
-  <ul>
-    <% @cocktails.each do |cocktail|%>
-      <li class="cocktail">
-        <div class="card_cocktail">
-          <div class="card_cocktail_info">
-            <%= link_to cocktail_path(cocktail) do %>
-            <%=  cocktail.name  %>
-            <% end %>
+  <div class="cocktails">
+    <ul>
+      <% @cocktails.each do |cocktail|%>
+        <li class="cocktail">
+          <div class="card_cocktail">
+            <div class="card_cocktail_info">
+              <%= link_to cocktail_path(cocktail) do %>
+              <%=  cocktail.name  %>
+              <% end %>
+            </div>
           </div>
-        </div>
-      </li>
-    <% end %>
-  </ul>
+        </li>
+      <% end %>
+    </ul>
+  </div>
 
- <div class="btn btn-primary top_right"><%= link_to "Add a new cocktail", new_cocktail_path %></div>
+  <div class="btn btn-primary top_right"><%= link_to "Add a new cocktail", new_cocktail_path %>
+  </div>
 </div>
