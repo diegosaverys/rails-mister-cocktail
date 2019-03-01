@@ -25,3 +25,29 @@
   color: #7EA1B6;
   text-decoration: none,
 }
+
+.btn {
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  color: #7EA1B6;
+  text-decoration: none,
+}
+
+
+.card_form {
+  padding: 10px;
+  width: 600px;
+  height: 300px;
+  background-color: #F3F3F3;
+  box-shadow: 2px 2px 2px gray;
+  bottom: 100px;
+  left: 700px;
+  position: absolute;
+  border-radius: 15px;
+}
+
+.list {
+  top: 200px;
+  left: 600px;
+}
