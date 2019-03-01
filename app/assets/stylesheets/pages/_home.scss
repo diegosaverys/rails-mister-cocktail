@@ -1,7 +1,7 @@
 // Specific CSS for your home-page
 h1 {
   font-size: 60px;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
@@ -15,6 +15,13 @@ h1 {
   background-color: #F3F3F3;
   box-shadow: 2px 2px 2px gray;
 
+
+}
+.logo {
+  background-image: asset-url('logo.png');
+  background-size: cover;
+  height: 500px;
+  width: 400px;
 
 }
 
