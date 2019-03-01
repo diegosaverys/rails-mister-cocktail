@@ -44,13 +44,19 @@ h1 {
 }
 
 .top_right {
-  top: 30px;
-  right: 250px;
+  top: 100px;
+  right: 200px;
   position: absolute;
   background-color: white;
   border-radius: 10px;
   border: 2px solid transparent;
 
+}
+
+.top_left {
+  top: 100px;
+  left: 250px;
+  position: absolute;
 }
 
 .top_right a {
