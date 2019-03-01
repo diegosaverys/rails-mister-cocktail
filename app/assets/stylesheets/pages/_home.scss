@@ -22,7 +22,7 @@ h1 {
   text-decoration: none;
   color: #7EA1B6;
   &:hover {
-    color: black;
+    color: yellow;
   }
 }
 
@@ -33,6 +33,7 @@ h1 {
 
 .container {
   background-color: #7EA1B6;
+  background-size: 300vh;
 }
 
 .top_right {
