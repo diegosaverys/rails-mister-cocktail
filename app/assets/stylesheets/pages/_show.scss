@@ -1,0 +1,27 @@
+.logo {
+  background-image: asset-url('new_cocktail.png');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.list, .form {
+  color: white;
+  font-weight: bold;
+
+}
+
+.top_right {
+  top: 100px;
+  right: 200px;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid transparent;
+
+}
+
+.top_right a {
+  color: #7EA1B6;
+  text-decoration: none,
+}

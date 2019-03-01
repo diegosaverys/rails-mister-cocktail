@@ -1,5 +1,9 @@
-<div class="logo"><%= image_tag "cocktail.png" %></div>
+<div class="logo">
 
+
+  <div class="title top_left">
+    <h1>Create your own cocktail</h1>
+  </div>
   <div class="form">
     <%= form_for(@cocktail) do |f| %>
       <%= f.label :name %>
@@ -13,5 +17,7 @@
     <%= link_to "Back to list", cocktails_path%>
   </div>
 
+
+</div>
 
 

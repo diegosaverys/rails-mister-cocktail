@@ -1,5 +1,5 @@
 .top_right {
-  top: 30px;
+  top: 100px;
   right: 200px;
   position: absolute;
   background-color: white;
@@ -12,8 +12,9 @@
   color: #7EA1B6;
   text-decoration: none,
 }
+
 .logo {
-  background-image: asset-url('logo.png');
+  background-image: asset-url('new_cocktail.png');
   background-size: cover;
   height: 200px;
 }
@@ -25,4 +26,10 @@
   color: gray;
   font-weight: bold;
   font-size: 25px;
+}
+
+.top_left {
+  top: 70px;
+  left: 50px;
+  position: absolute;
 }

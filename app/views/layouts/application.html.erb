@@ -12,7 +12,13 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="maincontainer">
+      <div class="mainnavbar"></div>
+      <div class="maincontent container">
+      <%= yield %>
+      </div>
+      <div class="mainfooter"></div>
+    </div>
     <%= javascript_include_tag "application" %> <!-- from app/assets/javascripts/application.js -->
     <%= javascript_pack_tag "application" %>    <!-- from app/javascript/packs/application.js -->
   </body>
